@@ -1,7 +1,11 @@
+
 @import url('http://fonts.googleapis.com/css/family=quicksand:400,500&subset=latin-ext');
 body {
     padding: 100px;
-    background-image: linear-gradient(-20deg, #ec4197 0%, #f03c4bd7 100%);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCZEsrZN5cNtrhZ3fxrzsvEPSsYoR39Hvwpw&s);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     text-align: center;
     font-family: 'quicksand', sans-serif;
 }
@@ -36,18 +40,18 @@ h1 {
     font-size: 30px;
     margin: 0;
     font-weight: bold;
-    color: #6944ff;
+    color: #f389d9;
 }
 .text {
     text-align: center;
     font-size: 15px;
     margin: 0;
-    color: #324e63;
+    color: #89a1b3;
 }
 p {
     margin: 0 auto;
     padding-top: 20px;
     width: 450px;
     height: auto;
-    color: #324e63;
+    color: #222c33;
 }
