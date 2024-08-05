@@ -1,4 +1,108 @@
 <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Responsif</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #c76e6e;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .sidebar, .content {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .sidebar {
+            flex: 1;
+            min-width: 250px;
+        }
+        .content {
+            flex: 2;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+            .main-content {
+                flex-direction: column;
+            }
+            .sidebar, .content {
+                width: 100%;
+                min-width: 0;
+            }
+        }
+        @media (max-width: 480px) {
+            header {
+                font-size: 1.2em;
+            }
+            .container {
+                padding: 10px;
+            }
+            .sidebar, .content {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Profil</h1>
+            <nav>
+                <ul>
+                    <li><strong><a href="index.html">Beranda</a></strong></li>
+                    <li><strong><a href="filmfavorit.html">film fav</a></strong></li>
+                    <li><strong><a href="tokoh panutan.html">tokoh panutan</a><strong</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
+
 <html>
     <head>
         <title>Nurlaila Azahra</title>
@@ -14,9 +118,6 @@
                 <li><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2L3q6HzETxJJAOmIRcFALEaxFG6MvYBmT7w&s" width="25px" height="25px"></a></li>
                 <li><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWMdBvtGqCVGju1YEr7TLpWDNSJdki5BZ8Cw&s" width="25px" height="25px"></a></li>
                 <li><a href="#"><img src="https://png.pngtree.com/element_our/png/20181011/instagram-social-media-icon-design-template-vector-png_127006.jpg" width="35px" height="35px"></a></li><br>
-            </ul>
-            <ul>
-                <li><a href="filmfavorit.html"><img src="https://e7.pngegg.com/pngimages/323/627/png-clipart-green-arrow-computer-icons-next-arrow-text-logo.png" width="40px" height="25px"></a></li>
             </ul>
         </div>
     </body>
