@@ -1,7 +1,7 @@
 @import url('http://fonts.googleapis.com/css/family=quicksand:400,500&subset=latin-ext');
 body {
     padding: 100px;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCZEsrZN5cNtrhZ3fxrzsvEPSsYoR39Hvwpw&s);
+    background-color: #e98484;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -39,7 +39,7 @@ h1 {
     font-size: 30px;
     margin: 0;
     font-weight: bold;
-    color: #f389d9;
+    color: #9b578a;
 }
 .text {
     text-align: center;
